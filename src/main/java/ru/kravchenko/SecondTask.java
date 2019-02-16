@@ -35,7 +35,7 @@ public class SecondTask {
             integer = 0;
         }
         lastNameSuf.put(name, integer + 1);
-        return name + (integer == 0 ? "" : integer);
+        return (integer == 0 ? "OK" : name + integer);
     }
 }
 
